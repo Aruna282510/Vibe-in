@@ -13,7 +13,7 @@ interface MediaItemProps {
 const MediaItem:React.FC<MediaItemProps> = ({
     data,
     onClick
-}) => {
+}) => { 
     const player = usePlayer();
     const imageUrl = useLoadImage(data);
 
